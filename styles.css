@@ -311,4 +311,56 @@ footer.detail{
     margin: 0;
     width: auto;
   }
+    /*  about */
+  #about-section{
+    padding: 2rem;
+    height: auto;
+    padding-bottom: 50px;
+  }  
+
+  /* skills */
+  #skills-section{
+    margin-top: -35px;
+    width: 90%;
+  }
+  #skills-section .container{
+    flex-direction: column;
+
+  }
+  #skills-container h3,.skills-container .subtitle{
+    font-size: 1.3rem;
+  }
+  #skills-container{
+    padding: 25px;
+  }
+  .skills-container .central{
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+  }
+  /* jobs  */
+  #jobs-section h2, #jobs-section p{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .job-container{
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+  .job-box{
+    margin-bottom: 2rem;
+    flex: 1 1 300px;
+  }
+    /* footer*/
+    footer{
+      padding: 50px 15px;
+    }
+    footer form{
+      width: 100%;
+    }
+    .detail{
+      margin-top:10px;
+      display:block;
+    }
 }
